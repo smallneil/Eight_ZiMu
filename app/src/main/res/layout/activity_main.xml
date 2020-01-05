@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Layout="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.geetol.zimu.activity.MainActivity">
+
+    <com.geetol.zimu.widget.HeadLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        Layout:setLeft="@mipmap/ic_sy_wd"
+        Layout:setRightVisible="false"
+        Layout:setTextTitle="首页" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <com.ms.banner.Banner
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            Layout:page_left_margin="15dp"
+            Layout:page_right_margin="15dp"
+            android:paddingBottom="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        Layout:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.geetol.zimu.widget.ItemFunctionLayoutOne
+                android:id="@+id/add_subtitles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                Layout:setIcon="@mipmap/ic_tjzm"
+                Layout:setText="@string/add_subtitles" />
+
+            <com.geetol.zimu.widget.ItemFunctionLayoutOne
+                android:id="@+id/video_clip"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                Layout:setIcon="@mipmap/ic_spbj"
+                Layout:setText="@string/video_clip" />
+
+            <com.geetol.zimu.widget.ItemFunctionLayoutOne
+                android:id="@+id/add_watermark"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                Layout:setIcon="@mipmap/ic_tjsy"
+                Layout:setText="@string/add_watermark" />
+
+            <com.geetol.zimu.widget.ItemFunctionLayoutOne
+                android:id="@+id/video_stitching"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                Layout:setIcon="@mipmap/ic_sppj"
+                Layout:setText="@string/video_stitching" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical">
+        <View
+            android:layout_width="3dp"
+            android:layout_height="12dp"
+            android:background="@color/main_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="实用工具"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        Layout:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.geetol.zimu.widget.ItemFunctionLayoutTwo
+                    android:id="@+id/subtitles_tool"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    Layout:setBg="@mipmap/mk_zmgj"
+                    Layout:setGo="@mipmap/ic_zmgj_ljsy"
+                    Layout:setTitle="@string/subtitles_tool"
+                    Layout:setIntro="@string/subtitles_intro"/>
+
+                <com.geetol.zimu.widget.ItemFunctionLayoutTwo
+                    android:id="@+id/clip_tool"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    Layout:setBg="@mipmap/mk_jjgj"
+                    Layout:setGo="@mipmap/ic_jjzj_ljsy"
+                    Layout:setTitle="@string/clip_tool"
+                    Layout:setIntro="@string/clip_intro" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <com.geetol.zimu.widget.ItemFunctionLayoutTwo
+                    android:id="@+id/watermark_tool"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    Layout:setGo="@mipmap/ic_sygj_ljsy"
+                    Layout:setBg="@mipmap/mk_sygj"
+                    Layout:setTitle="@string/watermark_tool"
+                    Layout:setIntro="@string/watermark_intro"/>
+
+                <com.geetol.zimu.widget.ItemFunctionLayoutTwo
+                    android:id="@+id/stitching_tool"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    Layout:setGo="@mipmap/ic_pjgj_ljsy"
+                    Layout:setBg="@mipmap/mk_pjgj"
+                    Layout:setTitle="@string/stitching_tool"
+                    Layout:setIntro="@string/stitching_intro" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

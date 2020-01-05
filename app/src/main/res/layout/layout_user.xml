@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:LayoutHead="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/kt_vip"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/vip_button_bg"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/ic_ljktvip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fast_vip_"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/vip_color"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:text="@string/vip_"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.geetol.zimu.widget.ItemUserFuncLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                LayoutHead:setImg="@mipmap/ic_wxcs"
+                LayoutHead:setText1="@string/unlimited_num"
+                LayoutHead:setText2="@string/save_video" />
+
+            <com.geetol.zimu.widget.ItemUserFuncLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                LayoutHead:setImg="@mipmap/ic_mgg"
+                LayoutHead:setText1="@string/no_ad"
+                LayoutHead:setText2="@string/exclusive_privilege" />
+
+            <com.geetol.zimu.widget.ItemUserFuncLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                LayoutHead:setImg="@mipmap/ic_zskf"
+                LayoutHead:setText1="@string/customer_service"
+                LayoutHead:setText2="@string/first_reception" />
+
+            <com.geetol.zimu.widget.ItemUserFuncLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                LayoutHead:setImg="@mipmap/ic_gqbc"
+                LayoutHead:setText1="@string/hd_save"
+                LayoutHead:setText2="@string/high_quality" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.geetol.zimu.widget.ItemUserLayout
+        android:id="@+id/vip_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        LayoutHead:setLeft="@mipmap/ic_hyzx"
+        LayoutHead:setTextTitle="@string/vip_center" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/eee" />
+
+    <com.geetol.zimu.widget.ItemUserLayout
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        LayoutHead:setLeft="@mipmap/ic_yjfk"
+        LayoutHead:setTextTitle="@string/feedback" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/eee" />
+
+    <com.geetol.zimu.widget.ItemUserLayout
+        android:id="@+id/contact_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        LayoutHead:setLeft="@mipmap/ic_lxkf"
+        LayoutHead:setTextTitle="@string/contact_customer" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/eee" />
+
+    <com.geetol.zimu.widget.ItemUserLayout
+        android:id="@+id/check_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        LayoutHead:setLeft="@mipmap/ic_jcgx"
+        LayoutHead:setTextTitle="@string/check_update" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/eee" />
+
+</LinearLayout>

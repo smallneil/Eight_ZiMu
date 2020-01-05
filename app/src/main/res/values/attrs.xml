@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LayoutOne">
+        <attr name="setIcon" format="integer"/>
+        <attr name="setText" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="LayoutTwo">
+        <attr name="setGo" format="integer"/>
+        <attr name="setBg" format="integer"/>
+        <attr name="setTitle" format="string"/>
+        <attr name="setIntro" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="LayoutHead">
+        <attr name="setLeft" format="integer"/>
+        <attr name="setRightVisible" format="boolean"/>
+        <attr name="setTextTitle" format="string"/>
+        <attr name="setTextRight" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ItemUserFuncLayout">
+        <attr name="setImg" format="integer"/>
+        <attr name="setText1" format="string"/>
+        <attr name="setText2" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="TagFlowLayout">
+        <attr name="max_select" format="integer"></attr>
+        <attr name="tag_gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="AbsRoundImageView">
+        <attr name="riv_borderWidth" format="dimension|reference"/>
+        <attr name="riv_borderColor" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="riv_leftTopRadius" format="dimension|reference"/>
+        <attr name="riv_rightTopRadius" format="dimension|reference"/>
+        <attr name="riv_rightBottomRadius" format="dimension|reference"/>
+        <attr name="riv_leftBottomRadius" format="dimension|reference"/>
+    </declare-styleable>
+</resources>

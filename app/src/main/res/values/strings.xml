@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">字幕</string>
+
+    <string name="splash_jump">跳过</string>
+    <string name="add_subtitles">添加字幕</string>
+    <string name="video_clip">视频剪辑</string>
+    <string name="add_watermark">添加水印</string>
+    <string name="video_stitching">视频拼接</string>
+
+    <string name="subtitles_tool">字幕工具</string>
+    <string name="clip_tool">剪辑工具</string>
+    <string name="watermark_tool">水印工具</string>
+    <string name="stitching_tool">拼接工具</string>
+
+    <string name="subtitles_intro">多种样式\n多种颜色</string>
+    <string name="clip_intro">想剪就剪\n不想也可以剪</string>
+    <string name="watermark_intro">随意涂鸦\n各种贴图</string>
+    <string name="stitching_intro">多个视频\n随意拼接</string>
+
+    <string name="vip_center">会员中心</string>
+    <string name="feedback">意见反馈</string>
+    <string name="contact_customer">联系客服</string>
+    <string name="check_update">检查更新</string>
+
+    <string name="vip_">会员权益</string>
+    <string name="fast_vip_">立即开通VIP</string>
+
+    <string name="unlimited_num">无限次数</string>
+    <string name="save_video">保存视频</string>
+    <string name="no_ad">免广告</string>
+    <string name="exclusive_privilege">专属特权</string>
+    <string name="customer_service">专属客服</string>
+    <string name="first_reception">优先接待</string>
+    <string name="hd_save">高清保存</string>
+    <string name="high_quality">优质画面</string>
+
+    <string name="next">下一步</string>
+    <string name="save">保存</string>
+    <string name="sel_video">选择视频</string>
+
+</resources>

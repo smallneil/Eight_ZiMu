@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="main_color">#40D586</color>
+    <color name="transparent">#22000000</color>
+    <color name="color_00">#8A000000</color>
+    <color name="color_hui">#e5e5e5</color>
+    <color name="red">#ed2d4c</color>
+    <color name="seekbar_color">#008BFF</color>
+    <color name="eee">#eeeeee</color>
+    <color name="vip_color">#c2894e</color>
+
+    <color name="white_80">#ccffffff</color><!--80透明度-->
+    <color name="white_90">#e6ffffff</color><!--90透明度-->
+    <color name="white_70">#b3ffffff</color><!--70透明度-->
+    <color name="white_50">#80ffffff</color><!--50透明度-->
+    <color name="white_40">#66ffffff</color><!--40透明度-->
+    <color name="white_20">#33ffffff</color><!--20透明度-->
+    <color name="white_10">#19ffffff</color><!--10透明度-->
+    <color name="white_30">#4Dffffff</color><!--30透明度-->
+
+    <color name="color_1">#008BFF</color>
+    <color name="color_2">#f9830f</color>
+    <color name="color_3">#ed2d4c</color>
+    <color name="color_4">#17b59d</color>
+    <color name="color_5">#3fb838</color>
+    <color name="color_6">#9667FF</color>
+    <color name="color_7">#FB8079</color>
+    <color name="color_8">#FFBC75</color>
+    <color name="color_9">#53cac3</color>
+    <color name="color_10">#3f41ce</color>
+    <color name="color_11">#ff00ee</color>
+    <color name="color_12">#bcc94a</color>
+    <color name="color_13">#135c1e</color>
+    <color name="color_14">#a72ae4bf</color>
+    <color name="color_15">#0b9de1</color>
+    <color name="color_16">#ff2200</color>
+</resources>
